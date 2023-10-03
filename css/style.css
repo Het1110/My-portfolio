@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+    
+}
+.nav{
+    background-color: rgb(15, 25, 35);
+}
+.ft-head{
+    font-family: 'Tilt Prism', cursive;
+    font-size: xx-large;
+    color: #fff;
+    text-decoration: none;
+}
+.ft{
+    font-family: 'Black Ops One', cursive;
+    font-size:85px;
+    color: #fff;
+}
+.ft-nav{
+    font-family: 'Tilt Prism', cursive;
+    font-size:20px;
+    color: #fff;
+}
+html{
+    font-size: 62.5%;
+}
+.body-con{
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right bottom,rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8) ), url('112.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    size: 15px;
+    background-color: rgb(15, 25, 35);
+    color: #fff;
+  }
+  .ok{
+    font-size: 15px;
+    font-family: 'Tilt Prism', cursive;
+    
+  }
+.header{
+    background-color: rgb(235, 226, 214);
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,rgba(255, 255, 255, 0.8), rgba(2, 18, 30, 0.8) ), url('112.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0% 0% , 100% 0%, 100% 85vh ,0% 100%);
+}
+.header-primary
+{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+
+
+
+.container {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 50px;
+    padding-left: 200px;
+  }
+  
+  img {
+    max-width: 450%;
+    max-height:450%;
+    border-radius: 50%;
+  }
+  
+  .text {
+    margin-left: 40%;
+    margin-right: 10%;
+    padding-left: 20px;
+    font-size: medium;
+        font-weight: 500;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+    
+  }
+
+  .back{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right bottom,rgba(255, 255, 255, 0.8), rgba(2, 18, 30, 0.8) ), url('1121.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0% 0% , 100% 15%, 100% 85% ,0% 100%);
+  }
+
+  .back-sk{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right bottom,rgba(255, 255, 255, 0.8), rgba(2, 18, 30, 0.8)  ), url('1122.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0% 0% , 100% 15%, 100% 85% ,0% 100%);
+  }
+
+  .text-head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: xx-large;
+    padding-left: 20px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+.header__text{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+}
+.header-primary--sub{
+    font-weight: 500;
+    display: block;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.7rem;
+    padding-bottom: 2rem;
+}
+.button:link,
+.button:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:1rem 4rem;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    transition: all 0.5s;
+    position: relative;
+}
+.button:hover{
+    transform: translateY(-0.3rem );
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.6);
+    color: rgb(15, 25, 35);
+}
+.button:hover::after{
+        width: 100%;
+      
+    background-color:#ffffff;
+}
+.back{
+    background-color: rgb(1, 11, 20);
+}
+.button-white{
+    font-family: 'Black Ops One', cursive;
+    background-color: rgb(15, 25, 35);
+    color: rgb(255, 255, 255);
+}
+.button-white:after{
+    background-color: rgb(15, 25, 35);
+}
+.button:active{
+    transform: translateY(-0.15rem );
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.6);
+}
+.button::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    z-index: -1;
+    transform: translateX();
+}
+.header___logo--text{
+    font-size: 4rem !important;
+    padding-left:4rem ;
+    padding-top: 2rem;
+}
+.nav--li{
+    padding-right: 2rem;
+    
+}
+.button-ca{
+    transition: transform 0.2s !important;
+}
+.button-ca:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+.header--c,.header--a{
+    
+    background-color: rgb(75, 70, 63);
+    height: 130vh;
+    background-image: linear-gradient(to right bottom,rgba(60, 137, 226, 0.8), rgba(2, 18, 30, 0.8) ), url('12.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0% 0% , 100% 0%, 100% 120vh ,0% 100%);
+}
+
+    .anim-left{
+        animation-name: anim-left;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes anim-left {
+        0% { transform: translate(-20rem,  0px); 
+        opacity: 0%;}
+        100%   { transform: translate(0rem, 0px);
+            opacity: 100%;} 
+    }
+    .anim-right{
+        animation-name: anim-right;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes anim-right {
+        0% { transform: translate(20rem,  0px); 
+        opacity: 0%;}
+        100%   { transform: translate(0rem, 0px);
+            opacity: 100%;} 
+    }
+     #anim-up{
+        animation-name: anim-up;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim-up {
+        0% { transform: translate(0rem,  20px); 
+        opacity: 0%;}
+        100%   { transform: translate(0rem, 0px);
+            opacity: 100%;} 
+    } 
+
+    .u-center-text{
+        text-align: center;
+      }
+      .u-margin-bottom-big{
+        margin-bottom: 8rem;
+      }
+      .u-margin-bottom-small{
+        margin-bottom: 1.5rem;
+      }
+      .heading-secondary{ 
+        margin-top: 9rem;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Black Ops One', cursive;
+        display: inline-block;
+        background-image: linear-gradient(to right bottom,rgb(0, 0, 0), rgb(0, 0, 0) );
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: 0.2rem;
+      padding-bottom: 30px;
+      }
+      .heading-tertiary{
+        font-size: 2rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      .paragraph{
+        display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+        font-size: 25px;
+        font-weight: 500;
+        color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+      }
+
+      .paragraph-s{
+        display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+      }
+
+      .paragraph-date{
+        display: flex;
+    justify-content: center;
+        font-size: medium;
+        padding-bottom: 5px;
+        font-weight: 500;
+        color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+      }
+
+      .paragraph-des{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+        padding-left: 200px;
+        padding-right: 200px;
+        font-weight: 500;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.containers .progress{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(15, 25, 35);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(15,25,35) var(--i) , rgb(255, 255, 255) 0);
+
+}
+
+
+.containers .progress h3{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5em;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.containers .progress h3 span{
+    
+    font-size: 0.7em;
+    font-weight: 500;
+    z-index: 1;
+}
+
+
+.containers .progress h4{
+    position:absolute;
+    top:62%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.2em;
+    font-weight: 500;
+    z-index: 1;
+}
+/*background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(hotpink 75%, pink 0); */
+      
+
+.row-u{
+    margin-bottom: 20px;
+}
+
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: aqua;
+}
+
+
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #898989; /* Change the color on hover */
+}
+
+/* Responsive Styles 
+    
+       
+    
+
+
+
+
+
